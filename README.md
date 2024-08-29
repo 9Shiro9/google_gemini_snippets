@@ -6,7 +6,6 @@
  After activating, use pip to install all dependencies from requirements.txt file.
 
  Create a .env file as following:
-
  GOOGLE_API_KEY = Your Google API key 
 
  You can get your api key from following link.

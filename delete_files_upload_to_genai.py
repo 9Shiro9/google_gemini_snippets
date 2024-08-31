@@ -8,4 +8,6 @@ genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 # Delete file
 delete_response = genai.delete_file("files/vjramgtxctl2")
+#delete_response = genai.delete_file("fileName")
+
 print(delete_response)

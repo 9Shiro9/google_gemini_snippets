@@ -13,7 +13,14 @@ chat = model.start_chat(
         {"role": "model", "parts": "Great to meet you. What would you like to know?"},
     ]
 )
+
 response = chat.send_message("I have 2 dogs in my house.")
 print(response.text)
+#Response here might look like following
+#That's lovely! Two dogs are twice the fun, and twice the love. What breeds are they? 
+# Are they best friends, or do they sometimes get into mischief? 🐶 😄
+
 response = chat.send_message("How many paws are in my house?")
 print(response.text)
+#Response here might look like following
+#You have two dogs, and each dog has four paws, so there are a total of **8 paws** in your house! 🐾 

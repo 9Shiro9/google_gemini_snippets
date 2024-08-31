@@ -1,5 +1,5 @@
 # google_gemini_snippets
- prepared code snippets to use all gemini models
+ prepared code snippets to leverage gemini models for different usecases
 
  Create a python virtual environment. 
  Activate your python virtual environment.

@@ -21,3 +21,7 @@ prompt = "List 5 popular cookie recipes"
 
 response = model.generate_content(prompt)
 print(response.text)
+
+#Response might look like folloiwng
+#[{"recipe_name": "Chocolate Chip Cookies"}, {"recipe_name": "Peanut Butter Cookies"}, {"recipe_name": "Sugar Cookies"}, 
+# {"recipe_name": "Oatmeal Raisin Cookies"}, {"recipe_name": "Snickerdoodles"}]
